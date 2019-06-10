@@ -71,6 +71,5 @@ post '/message' do
                   client.reply_message(event['replyToken'], message)
                 break
           end
-      end
   end
 end
