@@ -1,1 +1,1 @@
-ねこが慰めてくれるLINE bot
+URLを投げるとQRコードを返すLINE bot

@@ -1,4 +1,5 @@
 # A sample Gemfile
+ruby '2.6.2'
 source "https://rubygems.org"
 group :development do
   gem 'rubocop'
