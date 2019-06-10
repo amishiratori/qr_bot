@@ -35,7 +35,7 @@ post '/message' do
               case event.type
                   when Line::Bot::Event::MessageType::Text
                     content = event.message['text']
-                    qrcode = RQRcode::QRCode.new(content)
+                    qrcode = RQRCode::QRCode.new(content)
                     png = qrcode.as_png(
                       resize_gte_to: false,
                       resize_exactly_to: false,
