@@ -2,10 +2,6 @@ require 'bundler/setup'
 Bundler.require
 require 'sinatra/reloader' if development?
 require 'dotenv'
-require 'google/cloud/language'
-require 'net/http'
-require 'uri'
-require 'erb'
 require 'line/bot'
 require 'rqrcode'
 require 'tempfile'
