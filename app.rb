@@ -53,7 +53,7 @@ post '/message' do
                     message = {
                       type: 'image',
                       originalContentUrl: img_url,
-                      previewImageUrl: imag_url
+                      previewImageUrl: img_url
                     }
                     client.reply_message(event['replyToken'], message)
                   break
