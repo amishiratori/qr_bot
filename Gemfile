@@ -19,3 +19,4 @@ gem 'line-bot-api'
 
 gem 'rqrcode'
 gem 'cloudinary'
+gem 'dotenv'
